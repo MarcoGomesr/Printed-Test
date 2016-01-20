@@ -1,0 +1,94 @@
+doctype html
+html(lang='en')
+	head
+		title Jade
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		link(href="https://fonts.googleapis.com/css?family=Oswald:400,700", rel="stylesheet", type="text/css")
+		link(rel="stylesheet", href="css/style.min.css")
+	body
+		header
+			.container
+				.row
+					.col-md-10.col-xs-9
+						a(href="#")
+							img(src="img/logo.png", alt="Printed", class="logo")
+					.col-md-2.col-xs-3
+						ul.list-inline.auth
+							li.auth__cart
+								span.icon-lock
+								|Basket (1)
+							li
+								span.icon-logout
+								|Log Out
+		.content
+			.container
+				.banner
+					.row
+						.col-md-6
+							img(src="img/banner.png", alt="")
+						.col-md-6
+							h2.banner__title Nullam ut pretium ligula
+							p.banner__paragraph.banner__paragraph--marginbt
+								|Enean mauris dui, sodales vel, viverra id, pulvinar nec, augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+								|Quisque magna odio, fringilla vitae, tempus eget, cursus in, dolor. Mauris lorem nibh, volutpat a, ultrices et, nonummy ut, ligula. Nam ac enim nunc
+								|ultrices feugiat.
+							p.banner__paragraph.banner__paragraph--bmarginbt
+								|Curabitur nulla nibh, placerat sed sollicitudin in, consectetur sit amet dui. Nulla scelerisque tortor sed felis dignissim scelerisque. In vehicula
+								|iaculisante. In arcu dolor, rutrum nec pretium non, feugiat id metus.
+							p.banner__paragraph.banner__paragraph--strong 
+								|Quisque semper augue erat, vel consequat ligula. Donec lectus sit ameteu.
+				
+				.service
+					.row
+						.col-md-3
+							article.service__item
+								h4.service__title Make an impression
+								p.service__paragraph
+									|Cras id mi nec sapien sollicitudin et sagittis. Integer tellus lacus, convals at interdum a, bibendum eget eros. Proin eget leo nec est.
+								button.service__link Sample gallery
+						.col-md-3
+							article.service__item
+								h4.service__title Paper and finishes
+								p.service__paragraph
+									|Morbi ut massa libero. Fusce viverra arcu eget lectus sollicitudin feugiat non non enim. Maecenas facilisis tincidunt velit, vitae lonqui.
+								button.service__link View	
+						.col-md-3
+							article.service__item
+								h4.service__title Free artwork templates
+								p.service__paragraph
+									|Proin ultrices blandit velit quis congue. Donec massa urna, dictum non tincidunt sed, aliquet quis leo. Nulla facilisi sed eu mattis.
+								button.service__link Download	
+						.col-md-3
+							article.service__item
+								h4.service__title Priced from just £10
+								p.service__paragraph
+									|Cras id mi nec sapien sollicitudin et sagittis. Integer tellus lacus, convals at interdum a, bibendum eget eros. Proin eget leo nec est.
+								button.service__link Get a quote
+				
+				div
+					.row
+						.col-md-12
+							footer
+								.row
+									.col-md-11.col-xs-10
+										ul.list-inline.sitemap
+											li
+												a(href="#", class="sitemap__link sitemap__link--f") Sitemap 
+												span.sitemap__link--pipe |
+											li
+												a(href="#", class="sitemap__link") Terms & Conditions
+												span.sitemap__link--pipe |
+											li
+												a(href="#", class="sitemap__link") Privacy
+									.col-md-1.col-xs-2
+										.social
+											a(href="#")
+												img(src="img/fb-icon.png", alt="facebook", class="social__fb")
+									
+											a(href="#")
+												img(src="img/tw-icon.png", alt="twitter", class="social__tw")
+									
+											a(href="#")
+												img(src="img/ld-icon.png", alt="linkedin", class="social__ld")

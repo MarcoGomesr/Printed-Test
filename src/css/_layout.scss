@@ -1,0 +1,130 @@
+
+/*===============================
+=            =header            =
+===============================*/
+header{
+	box-shadow: 1px 3px 7px #e5e5e5;
+	height: 93px;
+	background: white;
+}
+
+.logo{
+	margin-top: 22px;
+}
+
+.auth{
+	margin-top: 53px;
+	font-size: 9pt;
+	&__cart{
+		margin-right: 5px;
+	}
+}
+
+/*================================
+=            =content            =
+================================*/
+
+.content{
+	padding-top: 36px;
+}
+
+.banner{
+	&__title{
+    margin-bottom: 13px;
+	}
+
+	&__paragraph{
+		font-size: 9pt;
+		width: 430px;
+		color: #8A8A8A;
+
+		&--marginbt{
+			margin-bottom: 18px;
+		}
+		&--strong{
+			font-weight: 500;
+		}
+
+		&--bmarginbt{
+			margin-bottom: 22px;
+		}
+
+	}
+}
+
+.service{
+	margin-top: 40px;
+	margin-bottom: 22px;
+
+	&__title{
+		letter-spacing: 1px;
+		color: $title__service;
+	}
+
+	&__item{
+		background: #fff;
+		box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+		border-radius: 5px;
+		padding: 10px 10px;
+		color: #8C8C8C;
+		font-size: 9pt;
+	}
+
+	&__paragraph{
+		line-height: 15px;
+		width: 190px;
+	}
+
+	&__link{
+		background: $color__pink;
+		border: none;		
+		color: white;
+		border-radius: 5px;
+		padding: 4px 10px;
+		font-weight: 400;
+		box-shadow: 0px 1px 1px rgba(0,0,0, 0.3);
+		letter-spacing: 1px;
+		font-size: 10pt;
+	}
+}
+
+/*===============================
+=            =footer            =
+===============================*/
+
+footer{
+	border-top: 1px dotted rgba(102, 102, 102, 0.25);
+	padding-top: 11px;
+	font-size: 7.4pt;
+}
+
+
+
+.sitemap{
+	&__link {
+		
+		&--f{
+			margin:none;
+		}
+
+		text-decoration: underline;
+		color: $footer__text;
+
+		&--pipe{
+			margin-left: 8px;
+		}
+	}
+}
+
+.social{
+	&__fb{    
+    margin-right: 6px;
+	}
+
+	&__tw{
+    
+    margin-right: 6px;		
+	}	
+}
+
+
